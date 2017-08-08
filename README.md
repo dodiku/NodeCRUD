@@ -27,10 +27,15 @@ https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-
 
 
 ### Install npm packages
+npm package express  
+https://www.npmjs.com/package/express  
+  
 npm package mysql  
 https://www.npmjs.com/package/mysql  
-
-
+  
+npm package express-handlebars   
+https://www.npmjs.com/package/express-handlebars  
+  
 ```js
 $ npm install express --save
 $ npm install mysql --save
