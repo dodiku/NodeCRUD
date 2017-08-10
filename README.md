@@ -29,6 +29,8 @@ $ sudo apt-get update
 $ sudo apt-get install mysql-server
 $ sudo mysql_secure_installation
 ```
+Mac user and Windows user can use MAMP to install mysql easily.   
+https://www.mamp.info/en/downloads/  
 
 ### Install npm packages
 npm package express  
