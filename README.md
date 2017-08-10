@@ -24,7 +24,11 @@ https://www.youtube.com/watch?v=LnOnzNQnJMU
 
 ### Linux
 https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04
-
+```shell
+$ sudo apt-get update
+$ sudo apt-get install mysql-server
+$ sudo mysql_secure_installation
+```
 
 ### Install npm packages
 npm package express  
