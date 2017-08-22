@@ -36,10 +36,10 @@ https://www.mamp.info/en/downloads/
 ## Setup DB
 ### Create DB & TABLE
 ```sql
-create database blog;
-show databases;
-use blog;
-create table article(id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, title VARCHAR(50), content TEXT, timestamp TIMESTAMP);
+CREATE DATABASE blog;
+SHOW DATABASES;
+USE blog;
+CREATE TABLE article(id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, title VARCHAR(50), content TEXT, timestamp TIMESTAMP);
 ```
 ### Create USER & GRANT
 ```sql
