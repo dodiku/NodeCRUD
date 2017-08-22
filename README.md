@@ -3,16 +3,16 @@
 ## What is CRUD?
 
 ### Create
-Create data  
+Create data --> INSERT statement  
   
 ### Read
-Read data  
+Read data  --> SELECT statement  
   
 ### Update
-Update data  
+Update data  --> UPDATE statement  
   
 ### Delete
-Delete data  
+Delete data  --> DELETE statement  
 
 
 ## Setup mysql
