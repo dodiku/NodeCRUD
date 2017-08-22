@@ -32,6 +32,23 @@ $ sudo mysql_secure_installation
 Mac user and Windows user can use MAMP to install mysql easily.   
 https://www.mamp.info/en/downloads/  
 
+
+## Setup DB
+### Create DB & TABLE
+```sql
+create database blog;
+show databases;
+use blog;
+create table article(id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, title VARCHAR(50), content TEXT, timestamp TIMESTAMP);
+```
+### Create USER & GRANT
+```sql
+CREATE USER 'user_name'@'localhost' IDENTIFIED BY 'YourPassword';
+SELECT user, host FROM user;
+GRANT ALL PRIVILEGES ON blog TO 'user_name'@'localhost';
+```
+
+
 ### Install npm packages
 npm package express  
 https://www.npmjs.com/package/express  
@@ -46,6 +63,7 @@ https://www.npmjs.com/package/express-handlebars
 $ npm install express --save
 $ npm install mysql --save
 $ npm install express-handlebars --save
+$ npm install body-parser --save  
 ```
 
 
