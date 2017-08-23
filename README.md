@@ -45,7 +45,7 @@ SHOW TABLES;
 ### Create USER & GRANT
 ```sql
 CREATE USER 'user_name'@'localhost' IDENTIFIED BY 'YourPassword';
-SELECT user, host FROM user;
+SELECT Host, User FROM mysql.user;
 GRANT ALL PRIVILEGES ON blog TO 'user_name'@'localhost';
 ```
 
