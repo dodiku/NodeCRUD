@@ -49,8 +49,23 @@ SELECT Host, User FROM mysql.user;
 GRANT ALL PRIVILEGES ON blog TO 'user_name'@'localhost';
 ```
 
+### Insert Sample Data
+```sql
+INSERT INTO article(title,content,timestamp) values('This is My First Post','Hello World!!!!','2017-08-22T20:40:13');
+INSERT INTO article(title,content,timestamp) values('This is My Second Post','Hello Friend!!!','2017-08-23T00:40:13');
 
-### Install npm packages
+SELECT * FROM article;
++----+------------------------+-----------------+---------------------+
+| id | title                  | content         | timestamp           |
++----+------------------------+-----------------+---------------------+
+|  1 | This is My First Post  | Hello World!!!! | 2017-08-22 20:40:13 |
+|  2 | This is My Second Post | Hello Friend!!! | 2017-08-23 00:40:13 |
++----+------------------------+-----------------+---------------------+
+
+```
+
+
+## Install npm packages
 npm package express  
 https://www.npmjs.com/package/express  
   
