@@ -34,6 +34,8 @@ https://www.mamp.info/en/downloads/
 
 
 ## Setup DB
+In this case, we will use article table which has id, title, content, and timestamp. Id is the primary key for this table and it will be increased automatically.
+
 ### Create DB & TABLE
 ```sql
 CREATE DATABASE blog;
