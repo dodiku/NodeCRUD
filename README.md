@@ -83,4 +83,6 @@ $ npm install express-handlebars --save
 $ npm install body-parser --save  
 ```
 
-
+## Software for mysql
+Sequel Pro  
+https://www.sequelpro.com/  
